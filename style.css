@@ -297,3 +297,98 @@ font-size: 30px;
 padding: 0 20px 0 0;
 border-right:10px solid var(--bright-gold);
 }
+.border3 {
+    outline: 3px solid
+    var(--sky-blue);
+    margin: 0 100px  0 100px;
+    outline-offset:  40px;
+    border-radius: 30px;
+}
+.contact{
+    text-align: center;
+}
+
+.contact h1{
+    font-size: 70px ;
+    color: var(--sky-blue);
+    padding: 0 20px 0 0;
+
+}
+.contact .hi{
+
+    font-size: 30px ;
+    color: var(--eggshell);
+    padding: 0 20px 0 0;
+    
+}
+
+.why h2{
+     font-size: 50px ;
+    color: var(--sky-blue);
+
+}
+
+.why p{
+    font-size: 30px;
+    color: var(--eggshell);
+}
+
+.why{
+    outline: 2px solid var(--rich-cerulean);
+ border-radius: 5px;
+ outline-offset: 10px;
+ margin: 0 250px 0 250px;
+}
+
+.why2{
+    outline: 2px solid var(--rich-cerulean);
+ border-radius: 5px;
+ outline-offset: 10px;
+ margin:0 150px 0 150px  ;
+}
+
+.why3{
+    outline: 2px solid var(--rich-cerulean);
+ border-radius: 5px;
+ outline-offset: 10px;
+ margin: 0 250px 0 250px;
+}
+
+.why2 h2{
+     font-size: 50px ;
+    color: var(--sky-blue);
+
+}
+
+.why2 p{
+    font-size: 30px;
+    color: var(--eggshell);
+}
+
+.why3 h2{
+     font-size: 50px ;
+    color: var(--sky-blue);
+
+}
+
+.contact .pls{
+
+    font-size: 30px ;
+    color: var(--sky-blue);
+    padding: 0 20px 0 0;}
+
+    .cont p{
+            font-size: 20px;
+    color: var(--eggshell);
+
+    }
+
+    .cont a{
+        text-decoration: none;
+        color: var(--sky-blue);
+    }
+
+    h5{
+        font-size: 50px ;
+    color: var(--bright-gold);
+    }
