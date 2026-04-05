@@ -241,3 +241,59 @@ width: 400px;
     border-radius: 30px;
 
 } 
+.about h1{
+    font-size: 70px ;
+    color: var(--eggshell);
+    padding: 0 20px 0 0;
+}
+
+.about .gg {
+    font-size: 30px;
+    color: var(--bright-gold);
+    padding: 0 20px 0 0;
+}
+.border2 {
+    outline: 3px solid
+    var(--twilight-indigo);
+    margin: 0 100px  0 100px;
+    outline-offset:  40px;
+    border-radius: 30px;
+}
+
+.jad{
+    display: flex;
+ align-items: top;
+ justify-content: space-around;
+ border: 1px solid var(--bright-gold);
+}
+.jad img{
+    width: 300px;
+    
+    
+}
+
+.yaman {
+    display: flex;
+ align-items: top;
+ justify-content: space-around;
+ border: 1px solid var(--bright-gold);
+
+}
+
+.yaman img{
+    width: 300px;
+
+}
+.y {
+      color: var(--eggshell);
+font-size: 30px;
+padding: 0 20px 0 0;
+
+border-left:10px solid var(--bright-gold);
+}
+.j {
+    color: var(--eggshell);
+font-size: 30px;
+padding: 0 20px 0 0;
+border-right:10px solid var(--bright-gold);
+}
