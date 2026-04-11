@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Lalezar" sans-serif;
+   font-family: 'Cairo', sans-serif;
 }
 
 :root{
@@ -15,18 +15,21 @@
 --flag-red: #c1292eff;
 --bright-gold: #f1d302ff;
 --sky-blue: #90c2e7ff;
+--sky-bzffglue: rgb(49, 62, 70);
+--flhxhxag-red: rgb(255, 0, 0);
 }
 
 body{
-    background-color: var(--shadow-grey);
+    background-color: var(--eggshell);
     text-align: right;
     
 }
 
-.logo img {
-    width: 800px;
-    height: 80px;
-    padding: 10px 0 10px 0;
+.logo h1 {
+    color: var(--bright-gold);
+   
+    -webkit-text-stroke: 1px var(--white);
+    font-size: 50px;
 
 }
 
@@ -34,8 +37,9 @@ body{
     list-style: none;
     display: flex;
     gap: 50px;
-    outline: 2px solid var(--shadow-grey);
+    outline: 2px solid var(--eggshell);
     outline-offset: 18px;
+    border-radius: 10px;
 }
 
 .navlinks a{
@@ -49,7 +53,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--twilight-indigo);
+    background-color: var(--flag-red);
     /* لتثبيت الشريط مكانه */
     position: sticky;
     top: 0;
@@ -58,12 +62,12 @@ body{
 
 .main h1{
     font-size: 70px;
-    color: var(--eggshell);
+    color: var(--black);
     padding: 0px 20px 0 0;
 }
 .main p{
     padding: 0 20px 5px 20px;
-    color: var(--bright-gold);
+    color: var(--flag-red);
     font-size: 20px;
 }
 .main{
@@ -71,50 +75,51 @@ body{
     align-items: center;
     justify-content: space-around;
     outline: 4px solid
-    var(--twilight-indigo);
+    var(--flag-red);
     margin: 0 100px  0 100px;
     outline-offset:  20px;
+    
     
 
 }
 
 .main img{
-    width: 450px;
-    margin:100px 20px 0 0;
+    width: 600px;
+    margin:25px 0 0 0;
 
 }
 
 .main .text{
-    outline: 2px solid var(--eggshell);
+    outline: 2px solid var(--black);
     border-radius: 5px;
     outline-offset: 10px;
-    margin: 100px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .asnaf{
         font-size: 50px;
-    color: var(--sky-blue);
+    color: var(--black);
     text-align: center;
 }
 
 .labna h1{ 
     font-size: 30px;
-    color: var(--white);
+    color: var(--sky-bzffglue);
 
 }
 .labna p{
     font-size: 20px;
-    color: var(--sky-blue);
+    color: var(--black);
     
 
 }
 .labna .spichl{
-    color: var(--eggshell);
+    color: var(--flhxhxag-red);
     font-size: 25px;
 }
 
 .labna .text{
-        outline: 2px solid var(--white);
+        outline: 2px solid var(--sky-bzffglue);
     border-radius: 5px;
     outline-offset: 10px;
     padding: 0 20px 20px 20px;
@@ -122,7 +127,8 @@ body{
 }
 
 .labna img {
-    width: 350px; 
+    width: 500px; 
+    margin: 30px 0 0 0 ;
 
 }
 .labna {
@@ -134,22 +140,22 @@ body{
 
 .z3tr h1{ 
     font-size: 30px;
-    color: var(--white);
+    color: var(--sky-bzffglue);
 
  }
  .z3tr p{
  font-size: 20px;
-color: var(--sky-blue);
+color: var(--black);
 
 
  }
  .z3tr .spichl{
- color: var(--eggshell);
+ color: var(--flhxhxag-red);
  font-size: 25px;
  }
 
  .z3tr .text{
- outline: 2px solid var(--white);
+ outline: 2px solid var(--sky-bzffglue);
  border-radius: 5px;
  outline-offset: 10px;
  padding: 0 20px 20px 20px;
@@ -157,8 +163,8 @@ color: var(--sky-blue);
  }
 
  .z3tr img {
-width: 350px; 
-
+    width: 450px; 
+    margin: 30px 0 0 0 ;
  }
  .z3tr {
  display: flex;
@@ -168,22 +174,22 @@ width: 350px;
 }
 .jbna h1{ 
     font-size: 30px;
-    color: var(--white);
+    color: var(--sky-bzffglue);
 
  }
  .jbna p{
  font-size: 20px;
-color: var(--sky-blue);
+color: var(--black);
 
 
  }
  .jbna .spichl{
- color: var(--eggshell);
+ color: var(--flhxhxag-red);
  font-size: 25px;
  }
 
  .jbna .text{
- outline: 2px solid var(--white);
+ outline: 2px solid var(--sky-bzffglue);
  border-radius: 5px;
  outline-offset: 10px;
  padding: 0 20px 20px 20px;
@@ -191,7 +197,8 @@ color: var(--sky-blue);
  }
 
  .jbna img {
-width: 350px; 
+width: 500px; 
+    margin: 30px 0 0 0 ;
  }
  .jbna {
  display: flex;
@@ -202,22 +209,22 @@ width: 350px;
 
 .mkdos h1{ 
     font-size: 30px;
-    color: var(--white);
+    color: var(--sky-bzffglue);
 
  }
  .mkdos p{
  font-size: 20px;
-color: var(--sky-blue);
+color: var(--black);
 
 
  }
  .mkdos .spichl{
- color: var(--eggshell);
+ color: var(--flhxhxag-red);
  font-size: 25px;
  }
 
  .mkdos .text{
- outline: 2px solid var(--white);
+ outline: 2px solid var(--sky-bzffglue);
  border-radius: 5px;
  outline-offset: 10px;
  padding: 0 20px 20px 20px;
@@ -225,7 +232,9 @@ color: var(--sky-blue);
  }
 
  .mkdos img {
-width: 400px; 
+width: 450px; 
+    margin: 30px 0 0 0 ; 
+
  }
  .mkdos {
  display: flex;
@@ -235,7 +244,7 @@ width: 400px;
 }
 .border{
     outline: 3px solid
-    var(--sky-blue);
+    var(--black);
     margin: 0 100px  0 100px;
     outline-offset:  40px;
     border-radius: 30px;
@@ -243,18 +252,18 @@ width: 400px;
 } 
 .about h1{
     font-size: 70px ;
-    color: var(--eggshell);
+    color: var(--black);
     padding: 0 20px 0 0;
 }
 
 .about .gg {
-    font-size: 30px;
-    color: var(--bright-gold);
+    font-size: 20px;
+    color: var(--flhxhxag-red);
     padding: 0 20px 0 0;
 }
 .border2 {
     outline: 3px solid
-    var(--twilight-indigo);
+    var(--black);
     margin: 0 100px  0 100px;
     outline-offset:  40px;
     border-radius: 30px;
@@ -264,7 +273,7 @@ width: 400px;
     display: flex;
  align-items: top;
  justify-content: space-around;
- border: 1px solid var(--bright-gold);
+ border: 1px solid var(--flag-red);
 }
 .jad img{
     width: 300px;
@@ -276,7 +285,7 @@ width: 400px;
     display: flex;
  align-items: top;
  justify-content: space-around;
- border: 1px solid var(--bright-gold);
+ border: 1px solid var(--flag-red);
 
 }
 
@@ -285,21 +294,21 @@ width: 400px;
 
 }
 .y {
-      color: var(--eggshell);
-font-size: 30px;
-padding: 0 20px 0 0;
-
-border-left:10px solid var(--bright-gold);
+ color: var(--black);
+font-size: 20px;
+padding: 0 20px 0 20px;
+border-right:10px solid var(--flag-red);
 }
+
 .j {
-    color: var(--eggshell);
-font-size: 30px;
-padding: 0 20px 0 0;
-border-right:10px solid var(--bright-gold);
+    color: var(--black);
+font-size: 20px;
+padding: 0 20px 0 20px;
+border-right:10px solid var(--flag-red);
 }
 .border3 {
     outline: 3px solid
-    var(--sky-blue);
+    var(--black);
     margin: 0 100px  0 100px;
     outline-offset:  40px;
     border-radius: 30px;
@@ -310,45 +319,45 @@ border-right:10px solid var(--bright-gold);
 
 .contact h1{
     font-size: 70px ;
-    color: var(--sky-blue);
+    color: var(--black);
     padding: 0 20px 0 0;
 
 }
 .contact .hi{
 
     font-size: 30px ;
-    color: var(--eggshell);
+    color: var(--flag-red);
     padding: 0 20px 0 0;
     
 }
 
 .why h2{
      font-size: 50px ;
-    color: var(--sky-blue);
+    color: var(--sky-bzffglue);
 
 }
 
 .why p{
     font-size: 30px;
-    color: var(--eggshell);
+    color: var(--flag-red);
 }
 
 .why{
-    outline: 2px solid var(--rich-cerulean);
+    outline: 2px solid var(--sky-bzffglue);
  border-radius: 5px;
  outline-offset: 10px;
  margin: 0 250px 0 250px;
 }
 
 .why2{
-    outline: 2px solid var(--rich-cerulean);
+    outline: 2px solid var(--sky-bzffglue);
  border-radius: 5px;
  outline-offset: 10px;
  margin:0 150px 0 150px  ;
 }
 
 .why3{
-    outline: 2px solid var(--rich-cerulean);
+    outline: 2px solid var(--sky-bzffglue);
  border-radius: 5px;
  outline-offset: 10px;
  margin: 0 250px 0 250px;
@@ -356,39 +365,43 @@ border-right:10px solid var(--bright-gold);
 
 .why2 h2{
      font-size: 50px ;
-    color: var(--sky-blue);
+    color: var(--sky-bzffglue);
 
 }
 
 .why2 p{
     font-size: 30px;
-    color: var(--eggshell);
+    color: var(--flag-red);
 }
 
 .why3 h2{
      font-size: 50px ;
-    color: var(--sky-blue);
+    color: var(--sky-bzffglue);
 
 }
 
 .contact .pls{
 
     font-size: 30px ;
-    color: var(--sky-blue);
+    color: var(--black);
     padding: 0 20px 0 0;}
 
     .cont p{
             font-size: 20px;
-    color: var(--eggshell);
+    color: var(--flag-red);
 
     }
 
     .cont a{
         text-decoration: none;
-        color: var(--sky-blue);
+        color: var(--flhxhxag-red);
     }
 
     h5{
         font-size: 50px ;
-    color: var(--bright-gold);
+    color: var(--flag-red);
+    }
+
+    li {
+        list-style: none;
     }
